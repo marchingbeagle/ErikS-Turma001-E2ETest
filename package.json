@@ -23,7 +23,7 @@
     "clean": "rimraf ./artifacts && mkdirp ./artifacts",
     "format": "prettier --write \"**/**.[jt]s?(x)\"",
     "verify": "prettier --check \"**/**.[jt]s?(x)\"",
-    "scenario": "npx playwright test src/scenarios/ZeroStepExample.spec.ts --output artifacts/media --workers 1",
+    "scenario": "npx playwright test src/scenarios/wikipedia.spec.ts --output artifacts/media --workers 1",
     "test": "npx playwright test --output artifacts/media --workers 4",
     "ui": "npx playwright test --output artifacts/media --debug --workers 1",
     "debug": "npx playwright test --output artifacts/media --ui --workers 1",
