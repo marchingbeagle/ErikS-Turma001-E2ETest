@@ -1,0 +1,5 @@
+application:
+  base_url: "https://google.com"
+  automationpractice_QA: "http://www.automationpractice.pl/index.php"  
+  bugereats_QA: "https://buger-eats.vercel.app/" 
+  sauceDemo: "https://www.saucedemo.com/"
